@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>AwesomProject</string>
+	<string>Zomato</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -54,6 +54,9 @@
 		<string>Okra-Medium.ttf</string>
 		<string>Okra-MediumLight.ttf</string>
 		<string>Okra-Regular.ttf</string>
+		<string>MaterailCommunityIcons.ttf</string>
+		<string>MaterailTcons.ttf</string>
+		<string>Ionicicons.ttf</string>
 	</array>
 </dict>
 </plist>
