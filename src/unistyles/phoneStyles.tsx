@@ -50,7 +50,7 @@ export const phoneStyles = createStyleSheet(({ colors, fonts, border }) => ({
         marginTop: 20
     },
     iconContainer: {
-        width: 50,
+        width: 100,
         height: 50,
         ...shadowStyle,
         justifyContent: 'center',
