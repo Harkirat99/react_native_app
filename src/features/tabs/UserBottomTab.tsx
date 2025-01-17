@@ -4,6 +4,7 @@ import LiveScreen from "@features/live/LiveScreen";
 import ReorderScreen from "@features/reorder/ReorderScreen";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import React from "react";
+import CustomTabBar from "./CustomTabBar";
 
 const Tab = createBottomTabNavigator();
 
@@ -14,6 +15,7 @@ const UserBottomTab:React.FC=()=>{
                 headerShown: false,
                 tabBarHideOnKeyboard: true
             }}
+            tabBar={(props) => <CustomTabBar {...props}/>}
         >
             <Tab.Screen name="Delivery" component={DeliveryScreen}/>
             <Tab.Screen name="Reorder" component={ReorderScreen}/>
